@@ -16,7 +16,7 @@ import (
 )
 
 var openstackCloudName = "openstack"
-var clientConfigFile = "clouds.yaml"
+var clientConfigFile = "tmp/clouds.yaml"
 
 func main() {
 	var err error
